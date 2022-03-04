@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>PRODUTO</title>
+</head>
+<body>
+    <h1>Produto</h1>
+
+    <table>
+        <thred>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Estoque</th>
+            </tr>
+        </thred>
+        <tbody>
+            <tr>
+                <td><a href="{% url 'produto' produto.id %}"></a></td>
+                <td> {{ produto.preco }} </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
